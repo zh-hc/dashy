@@ -11,6 +11,7 @@ appConfig:
   layout: auto
   iconSize: medium
   language: cn
+  webSearch: { disableWebSearch: true } # 禁用网络搜索
   auth: # 开启身份验证
     enableGuestAccess: true # 开启来宾访问
     users:
