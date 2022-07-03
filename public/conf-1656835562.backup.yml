@@ -90,16 +90,13 @@ sections:
     items:
       - title: Icons
         description: 图标参考
-        icon: ''
+        icon: fas fa-acorn
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
         id: 0_529_icons
       - title: Example
         description: 配置文件示例
         url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
         id: 1_529_example
-      - title: 强国
-        url: http://m.syiban.com
-        id: 2_529_
     icon: fas fa-window
   - name: Oracle
     icon: fas fa-cloud
@@ -109,40 +106,4 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items:
-      - title: speedtest
-        description: 甲骨文全区测速
-        url: https://oracle-speedtest.com/
-        id: 0_598_speedtest
-      - title: sanjose
-        description: 圣何塞
-        url: https://cloud.oracle.com/?region=us-sanjose-1
-        id: 1_598_sanjose
-      - title: osaka
-        description: 大阪
-        url: https://cloud.oracle.com/?region=ap-osaka-1
-        id: 2_598_osaka
-      - title: singapore
-        description: 新加坡
-        url: https://cloud.oracle.com/?region=ap-singapore-1
-        id: 3_598_singapore
-  - name: DNS
-    icon: fas fa-bars
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: aliyun
-        description: 阿里云域名控制台
-        url: https://dc.console.aliyun.com/
-        id: 0_229_aliyun
-      - title: DNSPod
-        description: 腾讯云DNS
-        url: https://www.dnspod.cn/login
-        id: 1_229_dnspod
-      - title: CloudFlare
-        url: http://cloudflare.com
-        id: 2_229_cloudflare
+    items: []

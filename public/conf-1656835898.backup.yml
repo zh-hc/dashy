@@ -97,9 +97,6 @@ sections:
         description: 配置文件示例
         url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
         id: 1_529_example
-      - title: 强国
-        url: http://m.syiban.com
-        id: 2_529_
     icon: fas fa-window
   - name: Oracle
     icon: fas fa-cloud
@@ -134,15 +131,4 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items:
-      - title: aliyun
-        description: 阿里云域名控制台
-        url: https://dc.console.aliyun.com/
-        id: 0_229_aliyun
-      - title: DNSPod
-        description: 腾讯云DNS
-        url: https://www.dnspod.cn/login
-        id: 1_229_dnspod
-      - title: CloudFlare
-        url: http://cloudflare.com
-        id: 2_229_cloudflare
+    items: []
