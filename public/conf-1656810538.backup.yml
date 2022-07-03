@@ -52,17 +52,9 @@ sections:
       hideForGuests: false
     items:
       - title: pan
-        description: 基于OneManager搭建的网盘
+        description: 使用OneManager搭建的网盘
         url: https://pan.baymin.eu.org
         id: 0_603_pan
-      - title: servers
-        description: 基于哪吒面板搭建的探针
-        url: https://servers.baymin6.com
-        id: 1_603_servers
-      - title: baysoo
-        description: 挂机分站
-        url: https://bay.sso80.cn
-        id: 2_603_baysoo
   - name: Tools
     displayData:
       sortBy: default
@@ -73,6 +65,6 @@ sections:
     items:
       - title: Icons
         description: 图标参考
-        icon: fas fa-acorn
+        icon: fas fa-alien
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
         id: 0_529_icons

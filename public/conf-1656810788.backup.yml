@@ -73,6 +73,6 @@ sections:
     items:
       - title: Icons
         description: 图标参考
-        icon: fas fa-acorn
+        icon: fas fa-alien
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
         id: 0_529_icons

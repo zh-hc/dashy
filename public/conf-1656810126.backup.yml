@@ -16,19 +16,15 @@ sections:
     icon: fas fa-rocket
     items:
       - title: baymin
-        description: 基于Gridea搭建的博客
         url: https://baymin.eu.org
         id: 0_592_baymin
       - title: baysoo
-        description: 基于OneTool搭建的挂机站
         url: https://baysoo.eu.org
         id: 1_592_baysoo
       - title: ican
-        description: 基于Dashy搭建的主页导航站
         url: https://ican.eu.org
         id: 2_592_ican
       - title: movi
-        description: 基于英皇CMS搭建的影视站
         url: http://movi.eu.org
         id: 3_592_movi
       - title: wenr
@@ -52,17 +48,9 @@ sections:
       hideForGuests: false
     items:
       - title: pan
-        description: 基于OneManager搭建的网盘
+        description: 使用OneManager搭建的网盘
         url: https://pan.baymin.eu.org
         id: 0_603_pan
-      - title: servers
-        description: 基于哪吒面板搭建的探针
-        url: https://servers.baymin6.com
-        id: 1_603_servers
-      - title: baysoo
-        description: 挂机分站
-        url: https://bay.sso80.cn
-        id: 2_603_baysoo
   - name: Tools
     displayData:
       sortBy: default
@@ -73,6 +61,5 @@ sections:
     items:
       - title: Icons
         description: 图标参考
-        icon: fas fa-acorn
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
         id: 0_529_icons
