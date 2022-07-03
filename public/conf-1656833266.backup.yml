@@ -11,14 +11,14 @@ appConfig:
   layout: auto
   iconSize: medium
   language: cn
-  webSearch:
-    disableWebSearch: true
-  auth:
-    enableGuestAccess: true
+  webSearch: { disableWebSearch: true } # 禁用网络搜索
+  auth: # 开启身份验证
+    enableGuestAccess: true # 开启来宾访问
     users:
-      - user: baymin
-        hash: 53823383FEE9DF538508151A468DF12647DEE27C7AD003E33A3B2545F6130AF1
-        type: admin
+    - user: baymin
+      hash: 53823383FEE9DF538508151A468DF12647DEE27C7AD003E33A3B2545F6130AF1
+      type: admin # admin类型
+    
 sections:
   - name: Today
     icon: far fa-smile-beam
@@ -26,8 +26,21 @@ sections:
       collapsed: false
       hideForGuests: false
     widgets:
-      - type: clock
-        id: 0_513_clock
+    - type: clock
+    - type: weather
+      options:
+        apiKey: efdbade728b37086877a5e83442004db
+        city: London
+    - type: crypto-watch-list
+      options:
+        currency: GBP
+        sortBy: marketCap
+        assets:
+        - bitcoin
+        - ethereum
+        - monero
+        - solana
+        - polkadot
   - name: eu.org
     icon: fas fa-rocket
     items:
@@ -92,7 +105,3 @@ sections:
         icon: fas fa-acorn
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
         id: 0_529_icons
-      - title: Example
-        description: 配置文件示例
-        url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
-        id: 1_529_example

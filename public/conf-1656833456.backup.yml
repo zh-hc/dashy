@@ -28,6 +28,22 @@ sections:
     widgets:
       - type: clock
         id: 0_513_clock
+      - type: weather
+        options:
+          apiKey: efdbade728b37086877a5e83442004db
+          city: London
+        id: 1_513_weather
+      - type: crypto-watch-list
+        options:
+          currency: GBP
+          sortBy: marketCap
+          assets:
+            - bitcoin
+            - ethereum
+            - monero
+            - solana
+            - polkadot
+        id: 2_513_cryptowatchlist
   - name: eu.org
     icon: fas fa-rocket
     items:
