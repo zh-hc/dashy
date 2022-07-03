@@ -11,6 +11,13 @@ appConfig:
   layout: auto
   iconSize: medium
   language: cn
+  auth: # 开启身份验证
+    enableGuestAccess: true # 开启来宾访问
+    users:
+    - user: baymin
+      hash: 53823383FEE9DF538508151A468DF12647DEE27C7AD003E33A3B2545F6130AF1
+      type: admin # admin类型
+    
 sections:
   - name: eu.org
     icon: fas fa-rocket
@@ -43,7 +50,7 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: MyStie
+  - name: MySite
     displayData:
       sortBy: default
       rows: 1
