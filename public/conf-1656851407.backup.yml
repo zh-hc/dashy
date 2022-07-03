@@ -54,14 +54,14 @@ sections:
         url: https://hzau.eu.org
         id: 5_592_hzau
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
   - name: MySite
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -79,13 +79,10 @@ sections:
         description: 挂机分站
         url: https://bay.sso80.cn
         id: 2_603_baysoo
-      - title: blog
-        url: https://blog.baymin.eu.org
-        id: 3_603_blog
     icon: fas fa-code
   - name: Tools
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -110,7 +107,6 @@ sections:
         url: https://yu.al/bbs/
         id: 4_529_
       - title: Emby官网
-        description: 家庭多媒体中心
         url: https://emby.media/
         id: 5_529_emby
       - title: 尝鲜派 - Apple beta
@@ -126,48 +122,11 @@ sections:
         description: 开源家庭云系统
         url: https://www.casaos.io/
         id: 9_529_casaos
-      - title: natfrp内网穿透
-        url: https://www.natfrp.com/
-        id: 10_529_natfrp
-      - title: IP签名档
-        url: https://ip.hk47.cc
-        id: 11_529_ip
-      - title: ping.pe
-        description: 检测 IP 是否被封以及连通性、全球延迟、测试丢包率等
-        url: https://ping.pe/
-        id: 12_529_pingpe
-      - title: Cloudreve
-        description: 支持多家云存储驱动的公有云文件系统
-        url: https://github.com/cloudreve/Cloudreve
-        id: 13_529_cloudreve
-      - title: R探长
-        description: 本系统目前主要应用于甲骨文云的一些快捷操作
-        url: https://github.com/semicons/java_oci_manage
-        id: 14_529_r
-      - title: 浮动时间软件
-        url: http://float.bertsir.com/
-        id: 15_529_
-      - title: 土豪社区
-        url: http://39.108.232.56/index.php?m=Home&c=Index&a=index
-        id: 16_529_
-      - title: TG导航
-        url: https://telsearch.long2ice.io/
-        id: 17_529_tg
-      - title: 吾爱破解
-        url: https://www.52pojie.cn/
-        id: 18_529_
-      - title: 英皇CMS
-        description: 超低成本搭建影视站
-        url: https://www.yhcms.net/
-        id: 19_529_cms
-      - title: 代码统计
-        url: https://codestats.net/
-        id: 20_529_
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -204,7 +163,7 @@ sections:
   - name: DNS
     icon: fas fa-bars
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -224,12 +183,9 @@ sections:
       - title: HE - FreeDNS
         url: https://dns.he.net
         id: 3_229_hefreedns
-      - title: DD系统
-        url: https://git.beta.gs
-        id: 4_229_dd
   - name: Works
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -257,19 +213,9 @@ sections:
       - title: OneDrive - baysoo
         url: https://baysoo-my.sharepoint.com/
         id: 6_534_onedrivebaysoo
-      - title: Visio
-        url: https://www.office.com/launch/visio?auth=2
-        id: 7_534_visio
-      - title: GitPod
-        description: 使用GitHub登录 - 在线IDE
-        url: https://gitpod.io/
-        id: 8_534_gitpod
-      - title: 浮墨笔记
-        url: https://flomoapp.com/
-        id: 9_534_
   - name: Funny
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -278,35 +224,3 @@ sections:
       - title: 神奇的视觉图片
         url: https://www.magiceye.com
         id: 0_528_
-  - name: Learning
-    displayData:
-      sortBy: most-used
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: 图书馆
-        url: http://libseat.hzau.edu.cn/
-        id: 0_816_
-      - title: 图书馆六楼
-        url: >-
-          https://cas.hzau.edu.cn/cas/login?service=http://218.199.76.10/loginall.aspx
-        id: 1_816_
-      - title: ITC
-        url: https://itc.hzau.edu.cn/
-        id: 2_816_itc
-      - title: 提问的智慧
-        url: >-
-          https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md
-        id: 3_816_
-      - title: 长江雨课堂
-        url: https://changjiang.yuketang.cn/web
-        id: 4_816_
-      - title: vuepress
-        description: 说明文档创建
-        url: https://vuepress.vuejs.org/zh/
-        id: 5_816_vuepress
-      - title: 保护个人隐私
-        url: https://gitee.com/hustytang/privacy
-        id: 6_816_

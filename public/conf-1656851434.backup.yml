@@ -54,14 +54,14 @@ sections:
         url: https://hzau.eu.org
         id: 5_592_hzau
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
   - name: MySite
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -85,7 +85,7 @@ sections:
     icon: fas fa-code
   - name: Tools
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -110,7 +110,6 @@ sections:
         url: https://yu.al/bbs/
         id: 4_529_
       - title: Emby官网
-        description: 家庭多媒体中心
         url: https://emby.media/
         id: 5_529_emby
       - title: 尝鲜派 - Apple beta
@@ -167,7 +166,7 @@ sections:
   - name: Cloud
     icon: fas fa-cloud
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -204,7 +203,7 @@ sections:
   - name: DNS
     icon: fas fa-bars
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -229,7 +228,7 @@ sections:
         id: 4_229_dd
   - name: Works
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -269,7 +268,7 @@ sections:
         id: 9_534_
   - name: Funny
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
@@ -280,7 +279,7 @@ sections:
         id: 0_528_
   - name: Learning
     displayData:
-      sortBy: most-used
+      sortBy: default
       rows: 1
       cols: 1
       collapsed: false
