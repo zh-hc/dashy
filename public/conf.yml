@@ -12,7 +12,8 @@ appConfig:
   iconSize: medium
   language: cn
   webSearch:
-    disableWebSearch: true
+    searchEngine: custom
+    customSearchEngine: 'http://www.baidu.com/s?wd='
   auth:
     enableGuestAccess: true
     users:
