@@ -7,7 +7,6 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  statusCheck: true # 状态指示器 检查是否在线
   theme: lissy
   layout: auto
   iconSize: medium
@@ -94,7 +93,7 @@ sections:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: Icons
@@ -177,10 +176,6 @@ sections:
         description: 动态页面部署
         url: https://4everland.org/
         id: 22_529_everland
-      - title: 33mail
-        description: 别名邮箱
-        url: https://www.33mail.com/
-        id: 23_529_mail
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
@@ -188,7 +183,7 @@ sections:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: Oracle - speedtest
@@ -225,7 +220,7 @@ sections:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: aliyun
@@ -250,7 +245,7 @@ sections:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: MicroSoft Office
@@ -285,25 +280,23 @@ sections:
       - title: 浮墨笔记
         url: https://flomoapp.com/
         id: 9_534_
-    icon: fas fa-pencil
   - name: Funny
     displayData:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: 神奇的视觉图片
         url: https://www.magiceye.com
         id: 0_528_
-    icon: fas fa-cubes
   - name: Learning
     displayData:
       sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - title: 图书馆
@@ -330,4 +323,3 @@ sections:
       - title: 保护个人隐私
         url: https://gitee.com/hustytang/privacy
         id: 6_816_
-    icon: fas fa-crop
