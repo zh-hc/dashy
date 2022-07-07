@@ -7,7 +7,7 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  statusCheck: true
+  statusCheck: true # 状态指示器 检查是否在线
   theme: lissy
   layout: auto
   iconSize: medium
@@ -181,9 +181,6 @@ sections:
         description: 别名邮箱
         url: https://www.33mail.com/
         id: 23_529_mail
-      - title: 订阅转换工具
-        url: http://www.flyjiang.cn
-        id: 24_529_
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
