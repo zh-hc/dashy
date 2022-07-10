@@ -91,10 +91,6 @@ sections:
         description: 挂机分站
         url: https://bai.sso80.cn
         id: 4_603_baisso
-      - title: Cloudreve
-        description: 基于Cloudreve搭建的公私兼备的网盘系统
-        url: https://cloudreve.baymin.eu.org
-        id: 5_603_cloudreve
     icon: fas fa-code
   - name: Tools
     displayData:
