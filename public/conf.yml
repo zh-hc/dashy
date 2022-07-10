@@ -95,6 +95,9 @@ sections:
         description: 基于Cloudreve搭建的公私兼备的网盘系统
         url: https://cloudreve.baymin.eu.org
         id: 5_603_cloudreve
+      - title: seed
+        url: https://seed.baymin.eu.org
+        id: 6_603_seed
     icon: fas fa-code
   - name: Tools
     displayData:
