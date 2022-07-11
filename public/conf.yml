@@ -47,7 +47,7 @@ sections:
         id: 2_592_ican
       - title: movi
         description: 基于英皇CMS搭建的影视站
-        url: http://movi.eu.org
+        url: https://movi.eu.org
         id: 3_592_movi
       - title: wenr
         url: https://wenr.eu.org
@@ -194,6 +194,14 @@ sections:
       - title: 订阅转换工具
         url: http://www.flyjiang.cn
         id: 24_529_
+      - title: TransferCloud
+        description: 把文件下载到云盘中
+        url: https://transfercloud.io/
+        id: 25_529_transfercloud
+      - title: Deluge
+        description: BT磁力下载工具
+        url: https://dev.deluge-torrent.org/
+        id: 26_529_deluge
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
