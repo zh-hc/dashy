@@ -107,109 +107,87 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - title: Icons
-        description: 图标参考
-        icon: ''
-        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
-        id: 0_529_icons
-      - title: Example
-        description: 配置文件示例
-        url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
-        id: 1_529_example
-      - title: 强国
-        url: http://m.syiban.com
-        id: 2_529_
       - title: 小皮面板
         url: https://www.xp.cn/
-        id: 3_529_
+        id: 0_529_
       - title: 宝塔开心版
         url: https://yu.al/bbs/
-        id: 4_529_
+        id: 1_529_
       - title: Emby官网
         description: 家庭多媒体中心
         url: https://emby.media/
-        id: 5_529_emby
+        id: 2_529_emby
       - title: 尝鲜派 - Apple beta
         url: https://www.betahub.cn
-        id: 6_529_applebeta
+        id: 3_529_applebeta
       - title: whoer - 查自己的IP
         url: https://whoer.net/zh
-        id: 7_529_whoerip
+        id: 4_529_whoerip
       - title: 追新客 - 网站源码
         url: http://www.zhuixinke.com/
-        id: 8_529_
+        id: 5_529_
       - title: CasaOS
         description: 开源家庭云系统
         url: https://www.casaos.io/
-        id: 9_529_casaos
+        id: 6_529_casaos
       - title: natfrp内网穿透
         url: https://www.natfrp.com/
-        id: 10_529_natfrp
-      - title: IP签名档
-        url: https://ip.hk47.cc
-        id: 11_529_ip
+        id: 7_529_natfrp
       - title: ping.pe
         description: 检测 IP 是否被封以及连通性、全球延迟、测试丢包率等
         url: https://ping.pe/
-        id: 12_529_pingpe
+        id: 8_529_pingpe
       - title: Cloudreve
         description: 支持多家云存储驱动的公有云文件系统
         url: https://github.com/cloudreve/Cloudreve
-        id: 13_529_cloudreve
-      - title: R探长
-        description: 本系统目前主要应用于甲骨文云的一些快捷操作
-        url: https://github.com/semicons/java_oci_manage
-        id: 14_529_r
+        id: 9_529_cloudreve
       - title: 浮动时间软件
         url: http://float.bertsir.com/
-        id: 15_529_
+        id: 10_529_
       - title: 土豪社区
         url: http://39.108.232.56/index.php?m=Home&c=Index&a=index
-        id: 16_529_
+        id: 11_529_
       - title: TG导航
         url: https://telsearch.long2ice.io/
-        id: 17_529_tg
-      - title: 吾爱破解
-        url: https://www.52pojie.cn/
-        id: 18_529_
+        id: 12_529_tg
       - title: 英皇CMS
         description: 超低成本搭建影视站
         url: https://www.yhcms.net/
-        id: 19_529_cms
+        id: 13_529_cms
       - title: 代码统计
         url: https://codestats.net/
-        id: 20_529_
+        id: 14_529_
       - title: Vercel
         description: 静态页面自动部署
         url: https://vercel.com/
-        id: 21_529_vercel
+        id: 15_529_vercel
       - title: 4everland
         description: 动态页面部署
         url: https://4everland.org/
-        id: 22_529_everland
+        id: 16_529_everland
       - title: 33mail
         description: 别名邮箱
         url: https://www.33mail.com/
-        id: 23_529_mail
+        id: 17_529_mail
       - title: 订阅转换工具
         url: http://www.flyjiang.cn
-        id: 24_529_
+        id: 18_529_
       - title: TransferCloud
         description: 把文件下载到云盘中
         url: https://transfercloud.io/
-        id: 25_529_transfercloud
+        id: 19_529_transfercloud
       - title: Deluge
         description: BT磁力下载工具
         url: https://dev.deluge-torrent.org/
-        id: 26_529_deluge
+        id: 20_529_deluge
       - title: KinhDown
         description: 网盘分享链接解析直链
         url: https://kinhdown.com/
-        id: 27_529_kinhdown
+        id: 21_529_kinhdown
       - title: 秋云uCharts
         description: 高性能跨平台图表库
         url: https://www.ucharts.cn/
-        id: 28_529_ucharts
+        id: 22_529_ucharts
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
@@ -248,6 +226,14 @@ sections:
       - title: 柠檬云
         url: https://cloud.bydth.cn
         id: 7_503_
+      - title: R探长
+        description: 本系统目前主要应用于甲骨文云的一些快捷操作
+        url: https://github.com/semicons/java_oci_manage
+        id: 8_503_r
+      - title: DC-JD
+        description: DC的京东dg
+        url: http://jd.dcvpn.cn/
+        id: 9_503_dcjd
   - name: DNS
     icon: fas fa-bars
     displayData:
@@ -314,6 +300,10 @@ sections:
       - title: 浮墨笔记
         url: https://flomoapp.com/
         id: 9_534_
+      - title: OpenSumi
+        description: 快速搭建一个本地和云端IDE
+        url: https://opensumi.com/zh
+        id: 10_534_opensumi
     icon: fas fa-pencil
   - name: Funny
     displayData:
@@ -326,6 +316,9 @@ sections:
       - title: 神奇的视觉图片
         url: https://www.magiceye.com
         id: 0_528_
+      - title: IP签名档
+        url: https://ip.hk47.cc
+        id: 1_528_ip
     icon: fas fa-cubes
   - name: Learning
     displayData:
@@ -335,28 +328,51 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
+      - title: 强国
+        url: http://m.syiban.com
+        id: 0_816_
       - title: 图书馆
         url: http://libseat.hzau.edu.cn/
-        id: 0_816_
+        id: 1_816_
       - title: 图书馆六楼
         url: >-
           https://cas.hzau.edu.cn/cas/login?service=http://218.199.76.10/loginall.aspx
-        id: 1_816_
+        id: 2_816_
       - title: ITC
         url: https://itc.hzau.edu.cn/
-        id: 2_816_itc
+        id: 3_816_itc
       - title: 提问的智慧
         url: >-
           https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md
-        id: 3_816_
+        id: 4_816_
       - title: 长江雨课堂
         url: https://changjiang.yuketang.cn/web
-        id: 4_816_
+        id: 5_816_
       - title: vuepress
         description: 说明文档创建
         url: https://vuepress.vuejs.org/zh/
-        id: 5_816_vuepress
+        id: 6_816_vuepress
       - title: 保护个人隐私
         url: https://gitee.com/hustytang/privacy
-        id: 6_816_
+        id: 7_816_
+      - title: 吾爱破解
+        url: https://www.52pojie.cn/
+        id: 8_816_
     icon: fas fa-crop
+  - name: Dashy
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Icons
+        description: 图标参考
+        icon: ''
+        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
+        id: 0_505_icons
+      - title: Example
+        description: 配置文件示例
+        url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
+        id: 1_505_example
