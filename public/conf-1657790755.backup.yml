@@ -206,10 +206,6 @@ sections:
         description: 网盘分享链接解析直链
         url: https://kinhdown.com/
         id: 27_529_kinhdown
-      - title: 秋云uCharts
-        description: 高性能跨平台图表库
-        url: https://www.ucharts.cn/
-        id: 28_529_ucharts
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
