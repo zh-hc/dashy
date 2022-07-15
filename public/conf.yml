@@ -319,6 +319,10 @@ sections:
       - title: IP签名档
         url: https://ip.hk47.cc
         id: 1_528_ip
+      - title: CanIUse
+        description: ''
+        url: https://caniuse.com/hevc
+        id: 2_528_caniuse
     icon: fas fa-cubes
   - name: Learning
     displayData:
@@ -361,10 +365,10 @@ sections:
     icon: fas fa-crop
   - name: Dashy
     displayData:
-      sortBy: default
+      sortBy: most-used
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: Icons
@@ -376,3 +380,22 @@ sections:
         description: 配置文件示例
         url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
         id: 1_505_example
+      - title: fontawesome
+        url: https://fontawesome.com/icons
+        id: 2_505_fontawesome
+    icon: fas fa-award
+  - name: airport
+    icon: fas fa-plane
+    displayData:
+      sortBy: most-used
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: 理塘丁真
+        url: https://hcnmb.com
+        id: 0_769_
+      - title: ovocloud
+        url: https://ovocloud.cc
+        id: 1_769_ovocloud
