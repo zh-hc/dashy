@@ -234,6 +234,10 @@ sections:
         description: DC的京东dg
         url: http://jd.dcvpn.cn/
         id: 9_503_dcjd
+      - title: JumpServer
+        description: 开源堡垒机
+        url: https://www.jumpserver.org/
+        id: 10_503_jumpserver
   - name: DNS
     icon: fas fa-bars
     displayData:
@@ -323,6 +327,12 @@ sections:
         description: ''
         url: https://caniuse.com/hevc
         id: 2_528_caniuse
+      - title: 流量消耗器-128线程
+        url: https://jiyou.cloud/
+        id: 3_528_
+      - title: 流量消耗器-32线程
+        url: https://db.laomoe.com/
+        id: 4_528_
     icon: fas fa-cubes
   - name: Learning
     displayData:
