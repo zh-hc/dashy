@@ -8,7 +8,8 @@ pageInfo:
       path: https://dashy.to/docs
 appConfig:
   statusCheck: true
-  theme: lissy
+  # 主题 候选：lissy cherry-blossom
+  theme: cherry-blossom
   layout: auto
   iconSize: medium
   language: cn
