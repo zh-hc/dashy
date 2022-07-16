@@ -8,7 +8,6 @@ pageInfo:
       path: https://dashy.to/docs
 appConfig:
   statusCheck: true
-  # 主题 候选：lissy cherry-blossom
   theme: cherry-blossom
   layout: auto
   iconSize: medium
@@ -239,6 +238,10 @@ sections:
         description: 开源堡垒机
         url: https://www.jumpserver.org/
         id: 10_503_jumpserver
+      - title: zhelper
+        description: 免费建站资源汇总
+        url: https://free.zhelper.net/
+        id: 11_503_zhelper
   - name: DNS
     icon: fas fa-bars
     displayData:
