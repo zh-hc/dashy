@@ -1,11 +1,3 @@
-pageInfo:
-  title: I CAN
-  description: I do, I CAN!
-  navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-    - title: Documentation
-      path: https://dashy.to/docs
 appConfig:
   statusCheck: true
   theme: cherry-blossom
@@ -21,6 +13,15 @@ appConfig:
       - user: baymin
         hash: 53823383FEE9DF538508151A468DF12647DEE27C7AD003E33A3B2545F6130AF1
         type: admin
+pageInfo:
+  title: I CAN
+  description: I do, I CAN!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
 sections:
   - name: Today
     icon: far fa-smile-beam
@@ -242,6 +243,21 @@ sections:
         description: 免费建站资源汇总
         url: https://free.zhelper.net/
         id: 11_503_zhelper
+      - title: DD系统
+        url: https://git.beta.gs
+        id: 12_503_dd
+      - title: WordPress
+        description: 建站神器
+        url: https://wordpress.org/
+        id: 13_503_wordpress
+      - title: coder
+        description: 在线IDE部署
+        url: https://coder.com/
+        id: 14_503_coder
+      - title: theia
+        description: 在线IDE部署
+        url: https://theia-ide.org/
+        id: 15_503_theia
   - name: DNS
     icon: fas fa-bars
     displayData:
@@ -265,9 +281,6 @@ sections:
       - title: HE - FreeDNS
         url: https://dns.he.net
         id: 3_229_hefreedns
-      - title: DD系统
-        url: https://git.beta.gs
-        id: 4_229_dd
   - name: Works
     displayData:
       sortBy: most-used
