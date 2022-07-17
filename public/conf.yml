@@ -73,7 +73,7 @@ sections:
       hideForGuests: false
     items:
       - title: pan
-        description: 基于OneManager搭建的网盘
+        description: 基于OneManager的网盘列表
         url: https://pan.baymin.eu.org
         id: 0_603_pan
       - title: servers
