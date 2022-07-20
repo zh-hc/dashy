@@ -262,6 +262,14 @@ sections:
         description: IBM 2H4G FREE
         url: https://linuxone.cloud.marist.edu/
         id: 16_503_linuxone
+      - title: Halo
+        description: 博客搭建
+        url: https://halo.run/
+        id: 17_503_halo
+      - title: gridea
+        description: 博客搭建
+        url: https://gridea.dev/
+        id: 18_503_gridea
   - name: DNS
     icon: fas fa-bars
     displayData:
@@ -354,6 +362,13 @@ sections:
       - title: 流量消耗器-32线程
         url: https://db.laomoe.com/
         id: 4_528_
+      - title: airpano
+        description: 环游世界
+        url: https://airpano.org.cn/
+        id: 5_528_airpano
+      - title: liferestart
+        url: http://liferestart.syaro.io/public/index.html
+        id: 6_528_liferestart
     icon: fas fa-cubes
   - name: Learning
     displayData:
@@ -394,7 +409,7 @@ sections:
         url: https://www.52pojie.cn/
         id: 8_816_
     icon: fas fa-crop
-  - name: Dashy
+  - name: UI & Color
     displayData:
       sortBy: most-used
       rows: 1
@@ -406,14 +421,34 @@ sections:
         description: 图标参考
         icon: ''
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
-        id: 0_505_icons
+        id: 0_771_icons
       - title: Example
         description: 配置文件示例
         url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
-        id: 1_505_example
+        id: 1_771_example
       - title: fontawesome
         url: https://fontawesome.com/icons
-        id: 2_505_fontawesome
+        id: 2_771_fontawesome
+      - title: zhongguose
+        description: 中国色
+        url: http://zhongguose.com/
+        id: 3_771_zhongguose
+      - title: nipponcolors
+        description: 取色器
+        url: https://nipponcolors.com/
+        id: 4_771_nipponcolors
+      - title: flatuicolors
+        description: 色彩
+        url: https://flatuicolors.com/
+        id: 5_771_flatuicolors
+      - title: reeoo
+        description: UI设计参考
+        url: https://reeoo.com/
+        id: 6_771_reeoo
+      - title: webcolor
+        description: 色彩搭配
+        url: http://tool.c7sky.com/webcolor/
+        id: 7_771_webcolor
     icon: fas fa-award
   - name: airport
     icon: fas fa-plane
