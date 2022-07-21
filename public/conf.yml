@@ -461,7 +461,7 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: ping.pe
