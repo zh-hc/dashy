@@ -121,74 +121,67 @@ sections:
       - title: 尝鲜派 - Apple beta
         url: https://www.betahub.cn
         id: 3_529_applebeta
-      - title: whoer - 查自己的IP
-        url: https://whoer.net/zh
-        id: 4_529_whoerip
       - title: 追新客 - 网站源码
         url: http://www.zhuixinke.com/
-        id: 5_529_
+        id: 4_529_
       - title: CasaOS
         description: 开源家庭云系统
         url: https://www.casaos.io/
-        id: 6_529_casaos
+        id: 5_529_casaos
       - title: natfrp内网穿透
         url: https://www.natfrp.com/
-        id: 7_529_natfrp
-      - title: ping.pe
-        description: 检测 IP 是否被封以及连通性、全球延迟、测试丢包率等
-        url: https://ping.pe/
-        id: 8_529_pingpe
+        id: 6_529_natfrp
       - title: Cloudreve
         description: 支持多家云存储驱动的公有云文件系统
         url: https://github.com/cloudreve/Cloudreve
-        id: 9_529_cloudreve
+        id: 7_529_cloudreve
       - title: 浮动时间软件
         url: http://float.bertsir.com/
-        id: 10_529_
+        id: 8_529_
       - title: 土豪社区
         url: http://39.108.232.56/index.php?m=Home&c=Index&a=index
-        id: 11_529_
+        id: 9_529_
       - title: TG导航
         url: https://telsearch.long2ice.io/
-        id: 12_529_tg
+        id: 10_529_tg
       - title: 英皇CMS
         description: 超低成本搭建影视站
         url: https://www.yhcms.net/
-        id: 13_529_cms
+        id: 11_529_cms
       - title: 代码统计
         url: https://codestats.net/
-        id: 14_529_
+        id: 12_529_
       - title: Vercel
         description: 静态页面自动部署
         url: https://vercel.com/
-        id: 15_529_vercel
+        id: 13_529_vercel
       - title: 4everland
         description: 动态页面部署
         url: https://4everland.org/
-        id: 16_529_everland
+        id: 14_529_everland
       - title: 33mail
         description: 别名邮箱
         url: https://www.33mail.com/
-        id: 17_529_mail
+        id: 15_529_mail
       - title: 订阅转换工具
         url: http://www.flyjiang.cn
-        id: 18_529_
+        id: 16_529_
       - title: TransferCloud
         description: 把文件下载到云盘中
         url: https://transfercloud.io/
-        id: 19_529_transfercloud
+        id: 17_529_transfercloud
       - title: Deluge
         description: BT磁力下载工具
         url: https://dev.deluge-torrent.org/
-        id: 20_529_deluge
+        id: 18_529_deluge
       - title: KinhDown
         description: 网盘分享链接解析直链
         url: https://kinhdown.com/
-        id: 21_529_kinhdown
+        id: 19_529_kinhdown
       - title: 秋云uCharts
         description: 高性能跨平台图表库
         url: https://www.ucharts.cn/
-        id: 22_529_ucharts
+        id: 20_529_ucharts
     icon: fas fa-window
   - name: Cloud
     icon: fas fa-cloud
@@ -349,26 +342,23 @@ sections:
       - title: 神奇的视觉图片
         url: https://www.magiceye.com
         id: 0_528_
-      - title: IP签名档
-        url: https://ip.hk47.cc
-        id: 1_528_ip
       - title: CanIUse
         description: ''
         url: https://caniuse.com/hevc
-        id: 2_528_caniuse
+        id: 1_528_caniuse
       - title: 流量消耗器-128线程
         url: https://jiyou.cloud/
-        id: 3_528_
+        id: 2_528_
       - title: 流量消耗器-32线程
         url: https://db.laomoe.com/
-        id: 4_528_
+        id: 3_528_
       - title: airpano
         description: 环游世界
         url: https://airpano.org.cn/
-        id: 5_528_airpano
+        id: 4_528_airpano
       - title: liferestart
         url: http://liferestart.syaro.io/public/index.html
-        id: 6_528_liferestart
+        id: 5_528_liferestart
     icon: fas fa-cubes
   - name: Learning
     displayData:
@@ -465,3 +455,46 @@ sections:
       - title: ovocloud
         url: https://ovocloud.cc
         id: 1_769_ovocloud
+  - name: IP
+    icon: fas fa-window
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: ping.pe
+        description: 检测 IP 是否被封以及连通性、全球延迟、测试丢包率等
+        url: https://ping.pe/
+        id: 0_153_pingpe
+      - title: whoer - 查自己的IP
+        url: https://whoer.net/zh
+        id: 1_153_whoerip
+      - title: IP签名档
+        url: https://ip.hk47.cc
+        id: 2_153_ip
+      - title: ip.skk.moe
+        url: https://ip.skk.moe/
+        id: 3_153_ipskkmoe
+      - title: www.ip111.cn
+        url: http://www.ip111.cn/
+        id: 4_153_wwwipcn
+      - title: myip.ipip.net
+        url: http://myip.ipip.net/
+        id: 5_153_myipipipnet
+      - title: ip.sb
+        url: https://ip.sb/
+        id: 6_153_ipsb
+      - title: ip.gs
+        url: https://ip.gs/
+        id: 7_153_ipgs
+      - title: ip.chinaz.com
+        url: https://ip.chinaz.com/
+        id: 8_153_ipchinazcom
+      - title: tool.lu/ip
+        url: https://tool.lu/ip
+        id: 9_153_toolluip
+      - title: www.ipip5.com
+        url: https://www.ipip5.com/
+        id: 10_153_wwwipipcom
