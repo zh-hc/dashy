@@ -368,12 +368,12 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - title: 强国
+      - title: xuexiqiangguo
         url: http://m.syiban.com
-        id: 0_816_
-      - title: 图书馆
+        id: 0_816_xuexiqiangguo
+      - title: libset
         url: http://libseat.hzau.edu.cn/
-        id: 1_816_
+        id: 1_816_libset
       - title: 图书馆六楼
         url: >-
           https://cas.hzau.edu.cn/cas/login?service=http://218.199.76.10/loginall.aspx
@@ -392,12 +392,17 @@ sections:
         description: 说明文档创建
         url: https://vuepress.vuejs.org/zh/
         id: 6_816_vuepress
-      - title: 保护个人隐私
+      - title: privacy
+        description: 保护个人隐私
         url: https://gitee.com/hustytang/privacy
-        id: 7_816_
+        id: 7_816_privacy
       - title: 吾爱破解
         url: https://www.52pojie.cn/
         id: 8_816_
+      - title: enshan
+        description: 恩山无线论坛
+        url: https://www.right.com.cn/
+        id: 9_816_enshan
     icon: fas fa-crop
   - name: UI & Color
     displayData:
