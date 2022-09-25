@@ -92,7 +92,7 @@ sections:
         url: https://blog.baymin.eu.org
         id: 3_603_blog
       - title: baisso
-        description: 挂机分站
+        description: 挂机分站-测试
         url: https://bai.sso80.cn
         id: 4_603_baisso
       - title: Cloudreve
