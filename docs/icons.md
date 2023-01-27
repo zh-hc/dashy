@@ -11,6 +11,7 @@ Both sections and items can have an icon, which is specified using the `icon` at
 - [Material Icons](#material-design-icons)
 - [Icons by URL](#icons-by-url)
 - [Local Icons](#local-icons)
+- [Using a Default Icon](#default-icon)
 - [No Icon](#no-icon)
 
 <p align="center">
@@ -110,7 +111,7 @@ For example, these will all render the same rocket (🚀) emoji: `icon: ':rocket
 
 ## Home-Lab Icons
 
-The [dashboard-icons](https://github.com/WalkxHub/dashboard-icons) repo by [@WalkxCode](https://github.com/WalkxCode) provides a comprehensive collection of 360+ high-quality PNG icons for commonly self-hosted services. Dashy natively supports these icons, and you can use them just by specifying the icon name (without extension) preceded by `hl-`. See [here](https://github.com/WalkxCode/dashboard-icons/tree/master/png) for a full list of all available icons. Note that these are fetched and cached strait from GitHub, so if you require offline access, the [Local Icons](#local-icons) method may be a better option for you.
+The [dashboard-icons](https://github.com/walkxcode/Dashboard-Icons) repo by [@WalkxCode](https://github.com/WalkxCode) provides a comprehensive collection of 360+ high-quality PNG icons for commonly self-hosted services. Dashy natively supports these icons, and you can use them just by specifying the icon name (without extension) preceded by `hl-`. See [here](https://github.com/walkxcode/Dashboard-Icons/tree/main/png) for a full list of all available icons. Note that these are fetched and cached strait from GitHub, so if you require offline access, the [Local Icons](#local-icons) method may be a better option for you.
 
 For example:
 
@@ -169,6 +170,12 @@ You can also set an icon by passing in a valid URL pointing to the icons locatio
 You may also want to store your icons locally, bundled within Dashy so that there is no reliance on outside services. This can be done by putting the icons within Dashy's `./public/item-icons/` directory. If you are using Docker, then the easiest option is to map a volume from your host system, for example: `-v /local/image/directory:/app/public/item-icons/`. To reference an icon stored locally, just specify it's name and extension. For example, if my icon was stored in `/app/public/item-icons/maltrail.png`, then I would just set `icon: maltrail.png`.
 
 You can also use sub-folders within the `item-icons` directory to keep things organized. You would then specify an icon with it's folder name slash image name. For example: `networking/monit.png`
+
+---
+
+## Default Icon
+
+If you'd like to set a default icon, to be applied to any items which don't have an icon already set, then this can be done under `appConfig.defaultIcon`.
 
 ---
 
