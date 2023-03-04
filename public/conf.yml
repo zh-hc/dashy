@@ -93,7 +93,7 @@ sections:
         id: 3_603_blog
       - title: douho
         description: douho导航页
-        url: https://douho.cn
+        url: https://www.douho.cn
         id: 4_603_douho
       - title: Cloudreve
         description: 基于Cloudreve搭建的公私兼备的网盘系统
