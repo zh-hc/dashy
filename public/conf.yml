@@ -86,15 +86,15 @@ sections:
         id: 1_603_servers
       - title: baysso
         description: 挂机分站
-        url: https://bay.sso80.cn
+        url: https://bay.douho.cn
         id: 2_603_baysso
       - title: blog
         url: https://blog.baymin.eu.org
         id: 3_603_blog
-      - title: baisso
-        description: 挂机分站-测试
-        url: https://bai.sso80.cn
-        id: 4_603_baisso
+      - title: douho
+        description: douho导航页
+        url: https://douho.cn
+        id: 4_603_douho
       - title: Cloudreve
         description: 基于Cloudreve搭建的公私兼备的网盘系统
         url: https://cloudreve.baymin.eu.org
