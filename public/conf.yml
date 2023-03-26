@@ -31,44 +31,53 @@ sections:
     widgets:
       - type: clock
         id: 0_513_clock
-  - name: eu.org
+  - name: EuOrg
     icon: fas fa-rocket
     items:
       - title: baymin
         description: 基于Gridea搭建的博客
         url: https://baymin.eu.org
-        id: 0_592_baymin
+        id: 0_482_baymin
       - title: baysoo
         description: 基于OneTool搭建的挂机站
         url: https://baysoo.eu.org
-        id: 1_592_baysoo
+        id: 1_482_baysoo
       - title: ican
         description: 基于Dashy搭建的主页导航站
         url: https://ican.eu.org
-        id: 2_592_ican
+        id: 2_482_ican
       - title: movi
         description: 基于英皇CMS搭建的影视站
         url: https://movi.eu.org
-        id: 3_592_movi
+        id: 3_482_movi
       - title: wenr
         url: https://wenr.eu.org
-        id: 4_592_wenr
+        id: 4_482_wenr
       - title: hzau
         url: https://hzau.eu.org
-        id: 5_592_hzau
+        id: 5_482_hzau
       - title: ovoi
         url: https://ovoi.eu.org
-        id: 6_592_ovoi
+        id: 6_482_ovoi
       - title: oovoo
         url: https://oovoo.eu.org
-        id: 7_592_oovoo
+        id: 7_482_oovoo
+      - title: stor
+        url: https://stor.eu.org
+        id: 8_482_stor
+      - title: ibgm
+        url: https://ibgm.eu.org
+        id: 9_482_ibgm
+      - title: ipoe
+        url: https://ipoe.eu.org
+        id: 10_482_ipoe
     displayData:
       sortBy: most-used
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: MySite
+  - name: GoSite
     displayData:
       sortBy: most-used
       rows: 1
@@ -79,29 +88,35 @@ sections:
       - title: pan
         description: 基于OneManager的网盘列表
         url: https://pan.baymin.eu.org
-        id: 0_603_pan
+        id: 0_587_pan
       - title: servers
         description: 基于哪吒面板搭建的探针
         url: https://servers.baymin6.com
-        id: 1_603_servers
+        id: 1_587_servers
       - title: baysso
         description: 挂机分站
-        url: https://bay.douho.cn
-        id: 2_603_baysso
+        url: https://oovoo.eu.org
+        id: 2_587_baysso
       - title: blog
         url: https://blog.baymin.eu.org
-        id: 3_603_blog
+        id: 3_587_blog
       - title: douho
         description: douho导航页
         url: https://www.douho.cn
-        id: 4_603_douho
+        id: 4_587_douho
       - title: Cloudreve
         description: 基于Cloudreve搭建的公私兼备的网盘系统
         url: https://cloudreve.baymin.eu.org
-        id: 5_603_cloudreve
+        id: 5_587_cloudreve
       - title: seed
         url: https://seed.baymin.eu.org
-        id: 6_603_seed
+        id: 6_587_seed
+      - title: helio-oovoo
+        url: https://helio.oovoo.eu.org
+        id: 7_587_heliooovoo
+      - title: helio
+        url: https://baymin.helioho.st
+        id: 8_587_helio
     icon: fas fa-code
   - name: Tools
     displayData:
