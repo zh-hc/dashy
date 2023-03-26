@@ -85,10 +85,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: pan
-        description: 基于OneManager的网盘列表
-        url: https://pan.baymin.eu.org
-        id: 0_587_pan
+      - title: alist
+        description: 基于alist的网盘列表
+        url: http://alist.stor.eu.org/
+        id: 0_587_alist
       - title: servers
         description: 基于哪吒面板搭建的探针
         url: https://servers.baymin6.com
