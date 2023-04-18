@@ -89,34 +89,24 @@ sections:
         description: 基于alist的网盘列表
         url: http://alist.stor.eu.org/
         id: 0_587_alist
-      - title: servers
-        description: 基于哪吒面板搭建的探针
-        url: https://servers.baymin6.com
-        id: 1_587_servers
       - title: baysso
         description: 挂机分站
         url: https://oovoo.eu.org
-        id: 2_587_baysso
-      - title: blog
-        url: https://blog.baymin.eu.org
-        id: 3_587_blog
-      - title: douho
-        description: douho导航页
-        url: https://www.douho.cn
-        id: 4_587_douho
+        id: 1_587_baysso
+      - title: ibaymin
+        description: ibaymin
+        url: https://ibaymin.com
+        id: 2_587_ibaymin
       - title: Cloudreve
         description: 基于Cloudreve搭建的公私兼备的网盘系统
         url: https://cloudreve.baymin.eu.org
-        id: 5_587_cloudreve
-      - title: seed
-        url: https://seed.baymin.eu.org
-        id: 6_587_seed
+        id: 3_587_cloudreve
       - title: helio-oovoo
         url: https://helio.oovoo.eu.org
-        id: 7_587_heliooovoo
+        id: 4_587_heliooovoo
       - title: helio
         url: https://baymin.helioho.st
-        id: 8_587_helio
+        id: 5_587_helio
     icon: fas fa-code
   - name: Tools
     displayData:
