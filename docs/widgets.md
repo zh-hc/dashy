@@ -37,6 +37,7 @@ Dashy has support for displaying dynamic content in the form of widgets. There a
   - [Healthchecks Status](#healthchecks-status)
   - [Mvg Departure](#mvg-departure)
   - [Mvg Connection](#mvg-connection)
+  - [Custom search](#custom-search)
 - **[Self-Hosted Services Widgets](#self-hosted-services-widgets)**
   - [System Info](#system-info)
   - [Cron Monitoring](#cron-monitoring-health-checks)
@@ -58,6 +59,7 @@ Dashy has support for displaying dynamic content in the form of widgets. There a
   - [Nextcloud System](#nextcloud-system)
   - [Nextcloud Stats](#nextcloud-stats)
   - [Nextcloud PHP OPcache](#nextcloud-php-opcache-stats)
+  - [Proxmox lists](#proxmox-lists)
   - [Sabnzbd](#sabnzbd)
   - [Gluetun VPN Info](#gluetun-vpn-info)
   - [Drone CI Build](#drone-ci-builds)
@@ -1263,11 +1265,61 @@ In other words: Private, noncomercial, moderate use of the API is tolerated. The
 
 ---
 
+### Custom search
+
+Allows web search using multiple user-defined search engines and other websites.
+
+#### Options
+
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`engines`** | `array` |  required | An array of search engine objects. Each search engine object should have two required properties: **title** and **url**. See the example below.
+**`placeholder`** | `string` |  optional | Placeholder text in the search box.
+
+#### Notes
+- The first search engine in the engines array will be treated as the default search engine, and used when the user presses `Enter` in the search box.
+- Popup blockers can interfere with opening a new search window.
+
+#### Example
+
+This widget allows searching multiple search engines from dashy.
+```yaml
+  - type: 'custom-search'
+    options:
+      placeholder: Search for something using the buttons below
+      engines:
+      - title: SearXNG
+        url: https://searx.lan/?q=
+      - title: Quant
+        url: https://www.qwant.com/?q=
+      - title: Bing Web
+        url: http://www.bing.com/search?q=
+      - title: Bing Images
+        url: http://www.bing.com/images/search?q=
+      - title: Bing Maps
+        url: http://www.bing.com/maps/search?q=
+      - title: Yandex
+        url: https://www.yandex.com/search/?text=
+      - title: Passmark
+        url: https://www.passmark.com/search/zoomsearch.php?zoom_query=
+      - title: IMDB
+        url: http://www.imdb.com/find?q=
+```
+#### Info
+
+- **CORS**: 🟢 Not needed
+- **Auth**: 🟢 Not Required
+- **Price**: 🟢 Free 
+- **Host**: user defined
+- **Privacy**: depends on the user defined search engines.
+
+---
+
 
 ## Self-Hosted Services Widgets
 
 ### System Info
-
+_See [MVG Datenschutz](https://www.mvg.de/datenschutz-mvg.html)_
 Displays info about the server which Dashy is hosted on. Includes user + host, operating system, uptime and basic memory & load data.
 
 <p align="center"><img width="400" src="https://i.ibb.co/rvDPBDF/system-info.png" /></p>
@@ -1967,6 +2019,64 @@ Shows statistics about PHP OPcache performance on your Nextcloud server.
 - **Host**: Self-Hosted (see [Nextcloud](https://nextcloud.com))
 - **Privacy**: _See [Nextcloud Privacy Policy](https://nextcloud.com/privacy)_
 
+
+---
+
+### Proxmox lists
+
+Shows lists of nodes, containers, and VMs in a Proxmox virtual environment cluster, with a status indicator.
+
+#### Options
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`cluster_url`** | `string` |  Required | The URL of the proxmox cluster server. No trailing `/`. for example: `https://proxmox.lan:8006`
+**`user_name`** | `string` |  Required | A Proxmox API Username, for example `root@pam` or `dashy@pve`.
+**`token_name`** | `string` |  Required | A Proxmox API token name. You can get a token in the API section of the cluster management interface.
+**`token_uuid`** | `string` |  Required | The value of the token entered above. This is normally a UUID. 
+**`node`** | `string` |  optional | A Proxmox node name. If empty or not supplied, a list of nodes will be shown.
+**`node_data`** | `string` |  optional | This is required if a node is selected, Currently this accepts two values, either `lxc` or `qemu` but the widget can be improved to get other types of data from the Proxmox API.
+**`title`** | `string` |  optional | A widget title.
+**`title_as_link`** | `boolean` |  optional | When this is set to anything other than 0 or false, the title will be linked to the value entered in the `cluster_url` option.
+**`footer`** | `string` |  optional | A widget footer.
+**`footer_as_link`** | `boolean` |  optional | When this is set to anything other than 0 or false, the title will be linked to the value entered in the `cluster_url` option.
+**`hide_templates`** | `boolean` |  optional | When this is set to anything other than 0 or false, templates will be filtered out of the result list.
+
+#### Example
+This will show the list of nodes.
+```yaml
+  - type: proxmox-lists
+    useProxy: true 
+    options:
+      cluster_url: https://proxmox.lan:8006
+      user_name: root@pam
+      token_name: dashy
+      token_uuid: bfb152df-abcd-abcd-abcd-ccb95a472d01
+```
+This will show the list of VMs, with a title and a linked fotter, hiding VM templates.
+```yaml
+  - type: proxmox-lists
+    useProxy: true 
+    options:
+      cluster_url: https://proxmox.lan:8006
+      user_name: root@pam
+      token_name: dashy
+      token_uuid: bfb152df-abcd-abcd-abcd-ccb95a472d01
+      node: proxmox
+      node_data: qemu
+      title: Proxmox VMs
+      title_as_link: false
+      footer: Proxmox
+      footer_as_link: true
+      hide_templates: 1
+```
+#### Info
+
+- **CORS**: 🟠 Proxied
+- **Auth**: 🟢 Required
+- **Price**: 🟢 Free
+- **Host**: Self-Hosted (see [Proxmox Virtual Environment](https://proxmox.com/en/proxmox-ve))
+- **Privacy**: _See [Proxmox's Privacy Policy](https://proxmox.com/en/privacy-policy)_
+
 ---
 
 ### Sabnzbd
@@ -2380,12 +2490,19 @@ You'll need to enable the sensors plugin to use this widget, using: `--enable-pl
 
 <p align="center"><img width="400" src="https://i.ibb.co/xSs4Gqd/gl-cpu-temp.png" /></p>
 
+#### Options
+
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`units`** | `string` |  _Optional_ | Use `C` to display temperatures in Celsius or `F` to use Fahrenheit. Defaults to `C`.
+
 #### Example
 
 ```yaml
 - type: gl-cpu-temp
   options:
     hostname: http://192.168.130.2:61208
+    units: C
 ```
 
 ---
@@ -2684,7 +2801,7 @@ Widgets cannot currently be edited through the UI. This feature is in developmen
 
 Widgets are built in a modular fashion, making it easy for anyone to create their own custom components.
 
-For a full tutorial on creating your own widget, you can follow [this guide](/docs/development-guides.md#building-a-widget), or take a look at [here](https://github.com/Lissy93/dashy/commit/3da76ce2999f57f76a97454c0276301e39957b8e) for a code example.
+For a full tutorial on creating your own widget, you can follow [this guide](/docs/development-guides.md/#building-a-widget), or take a look at [here](https://github.com/Lissy93/dashy/commit/3da76ce2999f57f76a97454c0276301e39957b8e) for a code example.
 
 Alternatively, for displaying simple data, you could also just use the either the [iframe](#iframe-widget), [embed](#html-embedded-widget), [data feed](#data-feed) or [API response](#api-response) widgets.
 
@@ -2702,7 +2819,7 @@ Please only request widgets for services that:
 - Allow for use in their Terms of Service
 - Would be useful for other users
 
-You can suggest a widget [here](https://git.io/Jygo3), please star the repo before submitting a ticket. If you are a monthly GitHub sponsor, I will happily build out a custom widget for any service that meets the above criteria, usually 2 within weeks of initial request.
+You can suggest a widget [here](https://git.io/Jygo3), please star the repo before submitting a ticket. If you are a monthly GitHub sponsor, I will happily build out a custom widget for any service that meets the above criteria, usually within 2 weeks of initial request.
 
 For services that are not officially supported, it is likely still possible to display data using either the [iframe](#iframe-widget), [embed](#html-embedded-widget) or [API response](#api-response) widgets. For more advanced features, like charts and action buttons, you could also build your own widget, using [this tutorial](/docs/development-guides.md#building-a-widget), it's fairly straight forward, and you can use an [existing widget](https://github.com/Lissy93/dashy/tree/master/src/components/Widgets) (or [this example](https://git.io/JygKI)) as a template.
 
