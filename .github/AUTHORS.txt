@@ -124,12 +124,16 @@ zh-hc <zh.hc@qq.com> - 43 commits
 snyk-bot <snyk-bot@snyk.io> - 49 commits
 Lissy93 <gh@d0h.co> - 78 commits
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7309d4a381fbe9db3b4871450ace96e23cb3e0d
 snyk-bot <snyk-bot@snyk.io> - 81 commits
 repo-visualizer <repo-visualizer@users.noreply.github.com> - 93 commits
 Alicia Bot <87835202+liss-bot@users.noreply.github.com> - 173 commits
 liss-bot <liss-bot@d0h.co> - 175 commits
 Lissy93 <Lissy93@users.noreply.github.com> - 210 commits
 Alicia Sykes <alicia@omg.lol> - 321 commits
+<<<<<<< HEAD
 =======
 snyk-bot <snyk-bot@snyk.io> - 79 commits
 repo-visualizer <repo-visualizer@users.noreply.github.com> - 86 commits
@@ -138,5 +142,7 @@ liss-bot <liss-bot@d0h.co> - 167 commits
 Lissy93 <Lissy93@users.noreply.github.com> - 209 commits
 Alicia Sykes <alicia@omg.lol> - 303 commits
 >>>>>>> Lissy93-master
+=======
+>>>>>>> c7309d4a381fbe9db3b4871450ace96e23cb3e0d
 Alicia Sykes <gh@d0h.co> - 440 commits
 Alicia Sykes <sykes.alicia@gmail.com> - 1488 commits
