@@ -16,16 +16,33 @@ Once you've got Dashy up and running, you'll want to configure it with your own 
 
 ## Deployment Methods
 
-- [Deploy with Docker](#deploy-with-docker)
-- [Using Docker Compose](#using-docker-compose)
-- [Unraid](#unraid)
-- [Synology NAS](#synology-nas)
-- [Build from Source](#build-from-source)
-- [Hosting with CDN](#hosting-with-cdn)
-- [Run as executable](#run-as-executable)
-- [Install with NPM](#install-with-npm)
-- [Deploy to cloud service](#deploy-to-cloud-service)
-- [Use managed instance](#use-managed-instance)
+- [Deployment](#deployment)
+  - [Quick Start](#quick-start)
+  - [Deployment Methods](#deployment-methods)
+  - [Deploy with Docker](#deploy-with-docker)
+  - [Using Docker Compose](#using-docker-compose)
+  - [Unraid](#unraid)
+  - [Synology NAS](#synology-nas)
+  - [Build from Source](#build-from-source)
+  - [Deploy to cloud service](#deploy-to-cloud-service)
+    - [Netlify](#netlify)
+    - [Heroku](#heroku)
+    - [Vercel](#vercel)
+    - [DigitalOcean](#digitalocean)
+    - [Google Cloud Platform](#google-cloud-platform)
+    - [Platform.sh](#platformsh)
+    - [Render](#render)
+    - [Scalingo](#scalingo)
+    - [Play-with-Docker](#play-with-docker)
+    - [Surge.sh](#surgesh)
+    - [Easypanel](#easypanel)
+  - [Hosting with CDN](#hosting-with-cdn)
+  - [Requirements](#requirements)
+    - [System Requirements](#system-requirements)
+    - [Docker](#docker)
+    - [Bare Metal](#bare-metal)
+    - [CDN / Cloud Deploy](#cdn--cloud-deploy)
+    - [Browser Support](#browser-support)
 
 ---
 
@@ -196,18 +213,6 @@ To deploy Dashy to Heroku, use the following link
 https://heroku.com/deploy?template=https://github.com/Lissy93/dashy
 ```
 
-### Cloudflare Workers
-
-[![Deploy to Cloudflare Workers](https://i.ibb.co/jf9xVdm/deploy-cloudflare-button.png)](https://deploy.workers.cloudflare.com/?url=https://github.com/lissy93/dashy/tree/deploy_cloudflare)
-
-[Cloudflare Workers](https://workers.cloudflare.com/) is a simple yet powerful service for running cloud functions and hosting web content. It requires a Cloudflare account, but is completely free for smaller projects, and very reasonably priced ($0.15/million requests per month) for large applications. You can use your own domain, and applications are protected with Cloudflare's state of the art DDoS protection. For more info, see the docs on [Worker Sites](https://developers.cloudflare.com/workers/platform/sites)
-
-To deploy Dashy to Cloudflare, use the following link
-
-```text
-https://deploy.workers.cloudflare.com/?url=https://github.com/lissy93/dashy/tree/deploy_cloudflare
-```
-
 ### Vercel
 
 [![Deploy with Vercel](https://i.ibb.co/mJF3R7m/deploy-vercel-button.png)](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
@@ -303,6 +308,18 @@ To deploy Dashy to Surge.sh, first clone and cd into Dashy, install dependencies
 yarn add -g surge
 yarn build
 surge ./dist
+```
+
+### Easypanel
+
+[![Deploy to Easypanel](https://i.ibb.co/ZNPwQX3/deploy-easypanel-button.png)](https://easypanel.io/docs/templates/dashy)
+
+[Easypanel](https://easypanel.io) it's a modern server control panel. You can use it to deploy Dashy on your own server.
+
+To deploy Dashy to Easypanel, use the following link
+
+```text
+https://easypanel.io/docs/templates/dashy
 ```
 
 ---

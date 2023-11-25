@@ -35,9 +35,11 @@ Dashy has support for displaying dynamic content in the form of widgets. There a
   - [GitHub Trending](#github-trending)
   - [GitHub Profile Stats](#github-profile-stats)
   - [Healthchecks Status](#healthchecks-status)
+  - [Hackernews Trending](#hackernews-trending)
   - [Mvg Departure](#mvg-departure)
   - [Mvg Connection](#mvg-connection)
   - [Custom search](#custom-search)
+  - [Rescuetime overview](#rescuetime-overview)
 - **[Self-Hosted Services Widgets](#self-hosted-services-widgets)**
   - [System Info](#system-info)
   - [Cron Monitoring](#cron-monitoring-health-checks)
@@ -709,6 +711,7 @@ Counting down to the next day off work? This widget displays upcoming public hol
 **`state`** | `string` |  **Optional** | restrict a country to a specific state defined by [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_3166-2), e.g. `LND`.
 **`holidayType`** | `string` |  **Optional** | The type of holidays to fetch. Can be: `all`, `public_holiday`, `observance`, `school_holiday`, `other_day` or `extra_working_day`. Defaults to `public_holiday`
 **`monthsToShow`** | `number` |  **Optional** | The number of months in advance to show. Min: `1`, max: `24`. Defaults to `12`
+**`lang`** | `string` |  **Optional** | The language in which the events should be. Usually local languages and english are available. Default to first available in the country. e.g. `en` or `fr`.
 
 #### Example
 
@@ -719,6 +722,7 @@ Counting down to the next day off work? This widget displays upcoming public hol
     region: LND
     holidayType: all
     monthsToShow: 12
+    lang: en
 ```
 
 #### Info
@@ -1150,7 +1154,7 @@ Display stats from your GitHub profile, using embedded cards from [anuraghazra/g
 
 ### HealthChecks Status
 
-Display status of one or more HealthChecks project(s). Works with healthcheck.io and your selfhosted instance.
+Display status of one or more HealthChecks project(s). Works with healthchecks.io and your selfhosted instance.
 
 <p align="center"><img width="380" src="https://i.ibb.co/W5dP6VN/Bildschirm-foto-2023-01-07-um-11-07-11.png" /></p>
 
@@ -1177,6 +1181,27 @@ Display status of one or more HealthChecks project(s). Works with healthcheck.io
 - **Price**: 🟢 Free / Paid / Self-hosted 
 - **Host**: Managed Instance or Self-Hosted (see [healthchecks/healthchecks](https://github.com/healthchecks/healthchecks))
 - **Privacy**: _See [Healthchecks.io Privacy Policy](https://healthchecks.io/privacy/)_
+
+---
+
+### Hackernews Trending
+
+Display new and trending Posts from Hackernews
+
+#### Options
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`stories`** | `string` |  _Optional_ | HN Stories to display defaults to `topstories`. Options are: `beststories`, `topstories` or `newstories`
+**`limit`** | `int` |  _Optional_ | The size of the list of Posts to show.
+
+##### Example
+
+```yaml
+- type: hackernews-trending
+  options:
+    stories: newstories
+    limit: 10
+```
 
 ---
 
@@ -1314,6 +1339,38 @@ This widget allows searching multiple search engines from dashy.
 - **Privacy**: depends on the user defined search engines.
 
 ---
+
+### RescueTime Overview
+
+Show an overview of how you have spent your time for the current day.
+
+<p align="center"><img width="400" src="https://i.ibb.co/bvx3PQM/rescuetime.png" /></p>
+
+#### Options
+
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`apiKey`** | `string` |  required | The API-Key generated in the RescueTime UI.
+
+
+#### Example
+
+```yaml
+  - type: rescue-time
+    useProxy: true
+    options:
+      apiKey: abcdefghijkl_mnop
+```
+#### Info
+
+- **CORS**: 🟢 Required
+- **Auth**: 🔴 Required
+- **Price**: 🟠 Depends on user subscription 
+- **Host**: [RescueTime](https://www.rescuetime.com)
+- **Privacy**: _See [RescueTime Privacy](https://www.rescuetime.com/privacy)_
+
+---
+
 
 
 ## Self-Hosted Services Widgets
